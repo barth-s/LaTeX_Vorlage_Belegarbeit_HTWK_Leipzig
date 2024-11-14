@@ -20,7 +20,7 @@ Dies ist eine **inoffizielle** LaTeX Vorlage für Belegarbeiten an der HTWK Leip
 
 ## Nutzung
   
-- In der Repository ein Ordner für Abbildungen -> Dieser muss eigenhändig erstellt werden
+- Ordner für Abbildungen, PDFs etc. müssen eigenhändig erstellt werden da die Repository keine leeren Ordner enthalten kann !
 
 - Download der Vorlage bei Overleaf empfohlen: https://de.overleaf.com/latex/templates/belegarbeit-htwk-leipzig/qvfnszstyntg
 
