@@ -58,18 +58,12 @@ headsepline]
 	
 \usepackage[letterspace=150]{microtype}
 \usepackage[onehalfspacing]{setspace}
-
 	
 % Caption %
 \usepackage[labelfont={bf,sf},font={bf}, labelsep=space, singlelinecheck=off]{caption} 
 
 \captionsetup[figure]{justification=centering,format=plain}
 \captionsetup[table]{justification=raggedright}
-
-
-\BeforeStartingTOC[toc]{\singlespacing} 
-\BeforeStartingTOC[lot]{\renewcommand\autodot{:}}
-\BeforeStartingTOC[lof]{\renewcommand\autodot{:}}
 
 % BibLaTeX %
 \usepackage[
@@ -92,9 +86,6 @@ headsepline]
     urlcolor=blue,
     citecolor=black}
 
-% Einfügen von PDF-Dateien %
-\usepackage{pdfpages}
-
 %Einfacher Umgang mit Einheiten%
 \usepackage{siunitx}
 \sisetup{
@@ -111,7 +102,6 @@ headsepline]
 %	Weitere Konfigurationen
 %---------------------------------------
 
-
 %Anpassung der Kopf- und Fusszeile
 \usepackage[autooneside=false]{scrlayer-scrpage}
 \clearpairofpagestyles
@@ -119,6 +109,11 @@ headsepline]
 \ohead{\pagemark}
 \automark{chapter}
 \ihead{\headmark}
+
+%Konfiguration Verzeichnisse
+\BeforeStartingTOC[toc]{\singlespacing} 
+\BeforeStartingTOC[lot]{\renewcommand\autodot{:}}
+\BeforeStartingTOC[lof]{\renewcommand\autodot{:}}
 
 %Anpassung der Kapitelüberschrift
 \renewcommand*{\chapterpagestyle}{scrheadings}
@@ -154,17 +149,6 @@ font=\LARGE]{chapter}
 %Schriftgröße in Tabellen gleich der Schriftgröße im Dokument
 \usepackage{etoolbox}
 \AtBeginEnvironment{table}{\sffamily}
-
-%%%%%%%%%% Platz für weitere Pakete %%%%%%%%%%
-%2 Bilder nebeneinander
-\usepackage{subcaption}
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %-------------------------------------------------
 %	Beginn des Dokuments und Einbinden der Kapitel
