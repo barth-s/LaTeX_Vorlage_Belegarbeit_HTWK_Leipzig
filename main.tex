@@ -130,10 +130,11 @@ font=\LARGE]{chapter}
 \renewcommand*{\extpostnotedelim}{\addnbspace}
 \renewcommand*{\volcitedelim}{\addcomma\addnbspace}
 
+
 \input{MeineDaten} 
 
-
 \input{Konfigurationsdateien/Anhangsverzeichnis}
+
 
 %Ebenen im Inhaltsverzeichnis
 \newcommand{\nocontentsline}[3]{}
@@ -145,10 +146,6 @@ font=\LARGE]{chapter}
 
 %Kein Einzug nach Absatz
 \setlength\parindent{0pt}
-
-%Schriftgröße in Tabellen gleich der Schriftgröße im Dokument
-\usepackage{etoolbox}
-\AtBeginEnvironment{table}{\sffamily}
 
 %-------------------------------------------------
 %	Beginn des Dokuments und Einbinden der Kapitel
