@@ -2,6 +2,16 @@
 
 Dies ist eine **inoffizielle** LaTeX Vorlage für Belegarbeiten an der HTWK Leipzig.
 
+## Update 
+
+Die Entwicklung der Vorlage ist soweit beendet. Das Projekt wird bis auf Weiteres eingefroren.
+
+Falls jemand die Vorlage weiterentwickeln möchte hier ein Paar abschließende Gedanken:
+
+- Optimierung des Codes in der main.tex -> Können Pakete wie "geometry" auch mit den KOMA Options ersetzt werden?
+
+- Neue Implementierung der Formel- und Abkürzungsverzeichnisse mit dem "glossaries" Paket
+
 ## Auszug der Funktionen
 
 - Automatisierte Erstellung des Deckblatts
