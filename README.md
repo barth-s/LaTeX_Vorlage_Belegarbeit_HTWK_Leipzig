@@ -6,7 +6,7 @@ Dies ist eine **inoffizielle** LaTeX Vorlage für Belegarbeiten an der HTWK Leip
 
 Die Entwicklung der Vorlage ist soweit beendet. Das Projekt wird bis auf Weiteres eingefroren.
 
-Falls jemand die Vorlage weiterentwickeln möchte hier ein Paar abschließende Gedanken:
+Falls jemand die Vorlage weiterentwickeln möchte hier ein paar abschließende Gedanken:
 
 - Optimierung des Codes in der main.tex -> Können Pakete wie "geometry" mit den KOMA Options ersetzt werden?
 
