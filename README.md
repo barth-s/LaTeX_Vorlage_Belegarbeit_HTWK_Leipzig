@@ -8,7 +8,7 @@ Die Entwicklung der Vorlage ist soweit beendet. Das Projekt wird bis auf Weitere
 
 Falls jemand die Vorlage weiterentwickeln möchte hier ein paar abschließende Gedanken:
 
-- Optimierung des Codes in der main.tex -> Können Pakete wie "geometry" mit den KOMA Options ersetzt werden?
+- Optimierung des Codes in der main.tex -> Können Pakete mit Einstellungen der KOMA-Klasse ersetzt werden?
 
 - Neue Implementierung der Formel- und Abkürzungsverzeichnisse mit dem "glossaries" Paket
 
